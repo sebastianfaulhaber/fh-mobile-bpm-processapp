@@ -3,7 +3,53 @@
 <property name="name" value="Processrequest-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="firstname" type="InputText" id="1994385685">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;First namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="firstname"/>
+<property name="outputBinding" value="firstname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="lastname" type="InputText" id="418123698">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;lastname (lastname)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lastname"/>
+<property name="outputBinding" value="lastname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="request" type="InputText" id="32831101">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;request (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="request"/>
+<property name="outputBinding" value="request"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="decision" type="InputText" id="2104189455">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;decision (decision)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="decision"/>
+<property name="outputBinding" value="decision"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="decisioncomment" type="InputText" id="1317582566">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;decisioncomment (decisioncomment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="decisioncomment"/>
+<property name="outputBinding" value="decisioncomment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <dataHolder inputId="decision" name="#E9E371" type="basicType" outId="decision" value="java.lang.String" id="decision"/>
+<dataHolder inputId="decisioncomment" name="#E9E371" type="basicType" outId="decisioncomment" value="java.lang.String" id="decisioncomment"/>
 <dataHolder inputId="firstname" name="#E9E371" type="basicType" outId="firstname" value="java.lang.String" id="firstname"/>
 <dataHolder inputId="lastname" name="#E9E371" type="basicType" outId="lastname" value="java.lang.String" id="lastname"/>
 <dataHolder inputId="request" name="#E9E371" type="basicType" outId="request" value="java.lang.String" id="request"/>
