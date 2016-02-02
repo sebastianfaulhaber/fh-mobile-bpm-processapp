@@ -3,4 +3,7 @@
 <property name="name" value="Processrequest-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="firstname" name="#E9E371" type="basicType" outId="firstname" value="java.lang.String" id="firstname"/>
+<dataHolder inputId="lastname" name="#E9E371" type="basicType" outId="lastname" value="java.lang.String" id="lastname"/>
+<dataHolder inputId="request" name="#E9E371" type="basicType" outId="request" value="java.lang.String" id="request"/>
 </form>
