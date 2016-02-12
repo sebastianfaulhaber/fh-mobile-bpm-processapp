@@ -6,7 +6,7 @@
   <artifactId>stp</artifactId>
   <version>1.0</version>
   <name>stp</name>
-  <description>lorem ipsum dolor amet.</description>
+  <description>This projects demonstrates the combination of Business Process Management techniques together with mobile application approaches.</description>
   <build>
     <plugins>
       <plugin>
