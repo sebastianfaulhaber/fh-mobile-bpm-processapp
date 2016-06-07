@@ -3,10 +3,17 @@
 <property name="name" value="Processrequest-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="firstname" type="InputText" id="1994385685">
+<field position="0" name=":decorator_0" type="HTMLLabel" id="901763525">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;First namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="2" name="firstname" type="InputText" id="1994385685">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;First namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -16,10 +23,10 @@
 <property name="outputBinding" value="firstname"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="lastname" type="InputText" id="418123698">
+<field position="3" name="lastname" type="InputText" id="418123698">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Last namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Last namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -29,9 +36,9 @@
 <property name="outputBinding" value="lastname"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="request" type="InputTextArea" id="32831101">
+<field position="4" name="request" type="InputTextArea" id="32831101">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Requestquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Requestquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -41,10 +48,17 @@
 <property name="outputBinding" value="request"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="decision" type="InputText" id="2104189455">
+<field position="5" name=":decorator_1" type="HTMLLabel" id="963541219">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Decisionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="6" name="decision" type="InputText" id="2104189455">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Decisionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -55,9 +69,9 @@
 <property name="outputBinding" value="decision"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="decisioncomment" type="InputTextArea" id="1317582566">
+<field position="7" name="decisioncomment" type="InputTextArea" id="1317582566">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Commentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Commentquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -67,39 +81,23 @@
 <property name="outputBinding" value="decisioncomment"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="901763525">
+<field position="1" name="username" type="InputText" id="1798838203">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;Customer request&lt;/h3&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="4" name=":decorator_1" type="HTMLLabel" id="963541219">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;Process request&lt;/h3&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Usernamequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="username"/>
+<property name="outputBinding" value="username"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="decision" name="#E9E371" type="basicType" outId="decision" value="java.lang.String" id="decision"/>
 <dataHolder inputId="decisioncomment" name="#E9E371" type="basicType" outId="decisioncomment" value="java.lang.String" id="decisioncomment"/>
 <dataHolder inputId="firstname" name="#E9E371" type="basicType" outId="firstname" value="java.lang.String" id="firstname"/>
 <dataHolder inputId="lastname" name="#E9E371" type="basicType" outId="lastname" value="java.lang.String" id="lastname"/>
 <dataHolder inputId="request" name="#E9E371" type="basicType" outId="request" value="java.lang.String" id="request"/>
+<dataHolder inputId="username" name="#E9E371" type="basicType" outId="username" value="java.lang.String" id="username"/>
 </form>
