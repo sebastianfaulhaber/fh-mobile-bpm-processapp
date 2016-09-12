@@ -2,10 +2,10 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>test</groupId>
-  <artifactId>stp</artifactId>
+  <groupId>mobile</groupId>
+  <artifactId>request-processing</artifactId>
   <version>1.0</version>
-  <name>stp</name>
+  <name>Request Processing</name>
   <description>This projects demonstrates the combination of Business Process Management techniques together with mobile application approaches.</description>
   <build>
     <plugins>
