@@ -98,7 +98,7 @@
 <property name="inputBinding" value="decisioncomment"/>
 <property name="outputBinding" value="decisioncomment"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="document.getElementById(&apos;decisioncomment&apos;).value = &apos;Lorem ipsum!&apos;"/>
+<property name="onChangeScript" value="document.getElementById(&apos;decisioncomment&apos;).value = &apos;Dear Mr. Muster,\n\nthank you very much for your message. I am happy to tell you that your son is already covered in your contract. I wish a you good and accident-free journey!\n\nBest regards,\nSabine Sachbearbeiter&apos;"/>
 </field>
 <dataHolder inputId="decision" name="#E9E371" type="basicType" outId="decision" value="java.lang.String" id="decision"/>
 <dataHolder inputId="decisioncomment" name="#E9E371" type="basicType" outId="decisioncomment" value="java.lang.String" id="decisioncomment"/>
