@@ -106,6 +106,7 @@ quot;"/>
 <property name="inputBinding" value="decisioncomment"/>
 <property name="outputBinding" value="decisioncomment"/>
 <property name="fieldClass" value="java.lang.String"/>
+<property name="onChangeScript" value="document.getElementById(&quot;decisioncomment&quot;).value = &quot;Lorem ipsum!&quot;"/>
 </field>
 <dataHolder inputId="decision" name="#E9E371" type="basicType" outId="decision" value="java.lang.String" id="decision"/>
 <dataHolder inputId="decisioncomment" name="#E9E371" type="basicType" outId="decisioncomment" value="java.lang.String" id="decisioncomment"/>
