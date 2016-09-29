@@ -75,7 +75,7 @@
 <field position="6" name="decision" type="InputText" id="2104189455">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Decisionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Decisionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -88,7 +88,7 @@
 </field>
 <field position="7" name="decisioncomment" type="InputTextArea" id="1317582566">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Message to customerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Message to customerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -98,7 +98,7 @@
 <property name="inputBinding" value="decisioncomment"/>
 <property name="outputBinding" value="decisioncomment"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="document.getElementById(&apos;decisioncomment&apos;).value = &apos;Dear Mr. Muster,\n\nthank you very much for your message. I am happy to tell you that your son is already covered in your contract. I wish a you good and accident-free journey!\n\nBest regards,\nSabine Sachbearbeiter&apos;"/>
+<property name="onChangeScript" value="document.getElementById(&apos;decisioncomment&apos;).value = &apos;Dear Mr. Muster,\n\nthank you very much for your message. I am happy to tell you that your son is already covered in your contract. I wish a you good and accident-free journey!\n\nBest regards,\nYour insurance company&apos;"/>
 </field>
 <dataHolder inputId="decision" name="#E9E371" type="basicType" outId="decision" value="java.lang.String" id="decision"/>
 <dataHolder inputId="decisioncomment" name="#E9E371" type="basicType" outId="decisioncomment" value="java.lang.String" id="decisioncomment"/>
